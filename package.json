@@ -1,26 +1,59 @@
 {
-  "name": "fastboot",
-  "version": "1.0.0-beta.5",
-  "description": "Library for rendering Ember apps in node.js",
-  "scripts": {
-    "test": "mocha",
-    "preversion": "npm test",
-    "postversion": "git push origin master --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ember-fastboot/fastboot.git"
-  },
-  "keywords": [
-    "ember",
-    "fastboot"
+  "_args": [
+    [
+      {
+        "raw": "fastboot@1.0.0-beta.5",
+        "scope": null,
+        "escapedName": "fastboot",
+        "name": "fastboot",
+        "rawSpec": "1.0.0-beta.5",
+        "spec": "1.0.0-beta.5",
+        "type": "version"
+      },
+      "/Users/brajendrakumar/website-v2/server"
+    ]
   ],
-  "author": "Tom Dale and FastBoot contributors",
-  "license": "MIT",
+  "_from": "fastboot@1.0.0-beta.5",
+  "_id": "fastboot@1.0.0-beta.5",
+  "_inCache": true,
+  "_location": "/fastboot",
+  "_nodeVersion": "6.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/fastboot-1.0.0-beta.5.tgz_1469018369526_0.4081067000515759"
+  },
+  "_npmUser": {
+    "name": "danmcclain",
+    "email": "npm@danmcclain.net"
+  },
+  "_npmVersion": "3.9.3",
+  "_phantomChildren": {
+    "escape-string-regexp": "1.0.5"
+  },
+  "_requested": {
+    "raw": "fastboot@1.0.0-beta.5",
+    "scope": null,
+    "escapedName": "fastboot",
+    "name": "fastboot",
+    "rawSpec": "1.0.0-beta.5",
+    "spec": "1.0.0-beta.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fastboot/-/fastboot-1.0.0-beta.5.tgz",
+  "_shasum": "547be4b1a7aaed841a6fecb2094740e95fd10c48",
+  "_shrinkwrap": null,
+  "_spec": "fastboot@1.0.0-beta.5",
+  "_where": "/Users/brajendrakumar/website-v2/server",
+  "author": {
+    "name": "Tom Dale and FastBoot contributors"
+  },
   "bugs": {
     "url": "https://github.com/ember-fastboot/fastboot-fastboot-server/issues"
   },
-  "homepage": "https://github.com/ember-fastboot/fastboot#readme",
   "dependencies": {
     "chalk": "^0.5.1",
     "cookie": "^0.2.3",
@@ -35,6 +68,7 @@
     "simple-dom": "^0.3.0",
     "source-map-support": "^0.4.0"
   },
+  "description": "Library for rendering Ember apps in node.js",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
@@ -43,5 +77,40 @@
     "mocha-jshint": "^2.3.1",
     "request-promise": "^2.0.1",
     "temp": "^0.8.3"
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "547be4b1a7aaed841a6fecb2094740e95fd10c48",
+    "tarball": "https://registry.npmjs.org/fastboot/-/fastboot-1.0.0-beta.5.tgz"
+  },
+  "gitHead": "abcd1ed7681cd356814010e7e9dfd5e9beacb552",
+  "homepage": "https://github.com/ember-fastboot/fastboot#readme",
+  "keywords": [
+    "ember",
+    "fastboot"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "danmcclain",
+      "email": "npm@danmcclain.net"
+    },
+    {
+      "name": "tomdale",
+      "email": "tom@tomdale.net"
+    }
+  ],
+  "name": "fastboot",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-fastboot/fastboot.git"
+  },
+  "scripts": {
+    "postversion": "git push origin master --tags",
+    "preversion": "npm test",
+    "test": "mocha"
+  },
+  "version": "1.0.0-beta.5"
 }
